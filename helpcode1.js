@@ -1,5 +1,5 @@
 /*GG
-11月26日新增东东工厂、惊喜工厂
+11月26日新增东东工厂、京喜工厂
 把你自己的对应活动的互助码复制，替换链接中（互助码三个文字）
 
 */
@@ -131,12 +131,12 @@ function createJx() {
       try {
          const obj = JSON.parse(data)
         if (obj.code == 200) {
-          $.result.push("东东工厂互助码添加成功✅")
+          $.result.push("京喜工厂互助码添加成功✅")
         }else
 		if(obj.code == 400) {
-          $.result.push("东东工厂互助码已存在")
+          $.result.push("京喜工厂互助码已存在")
         }else{
-          $.result.push("东东工厂互助码添加异常")
+          $.result.push("京喜工厂互助码添加异常")
         }
       } catch (e) {
         $.logErr(e, resp)
