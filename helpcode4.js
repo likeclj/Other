@@ -6,11 +6,11 @@
 
 
 const $ = new Env('互助码')
-$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/互助码/'  // 种豆得豆
-$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/互助码/'  // 农场
-$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/互助码/'  // 萌宠
+$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/4oupleiwuds2b4o2pkrjpo2g2fg76xvydix4p4y/'  // 种豆得豆
+$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/2f4a35a7f4414933a24da11c6dfbe0b1/'  // 农场
+$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODExNDYxMTEwMDAwMDAwMzk5MDU5ODM=/'  // 萌宠
 $.ddUrl = 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/互助码/'  // 东东
-$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/互助码/'  // 惊喜
+$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/tEURyZB59f3az9OkOF01Tg==/'  // 京喜
 
 $.result = []
 
