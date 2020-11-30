@@ -10,7 +10,7 @@ $.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/e7lhibzb3zek262yj42px
 $.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/fd5f20c2e2844c5a8ef41799075b522e/'  // 农场
 $.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODcxOTI2NTAwMDAwMDAzMjg4OTYzNw==/'  // 萌宠
 $.ddUrl = 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/互助码/'  // 东东
-$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/AkKRylFHNCSd8yDF2HsDHw==/'  // 惊喜
+$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/AkKRylFHNCSd8yDF2HsDHw==/'  // 京喜
 
 $.result = []
 
