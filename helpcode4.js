@@ -123,7 +123,7 @@ function createDd() {
   })
 }
 
-// 惊喜工厂
+// 京喜工厂
 function createJx() {
   return new Promise((resolve) => {
     const url = { url: $.jxUrl }
@@ -131,12 +131,12 @@ function createJx() {
       try {
          const obj = JSON.parse(data)
         if (obj.code == 200) {
-          $.result.push("东东工厂互助码添加成功✅")
+          $.result.push("京喜工厂互助码添加成功✅")
         }else
 		if(obj.code == 400) {
-          $.result.push("东东工厂互助码已存在")
+          $.result.push("京喜工厂互助码已存在")
         }else{
-          $.result.push("东东工厂互助码添加异常")
+          $.result.push("京喜工厂互助码添加异常")
         }
       } catch (e) {
         $.logErr(e, resp)
