@@ -1,16 +1,16 @@
 /*GG
-11月26日新增东东工厂、惊喜工厂
+11月26日新增东东工厂、京喜工厂
 把你自己的对应活动的互助码复制，替换链接中（互助码三个文字）
 
 */
 
 
 const $ = new Env('互助码')
-$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/互助码/'  // 种豆得豆
-$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/互助码/'  // 农场
-$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/互助码/'  // 萌宠
+$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/igefhjvuw6xvspj6l42seplmi53gl2vcttjdzla/'  // 种豆得豆
+$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/d2d1878bee2440ad8704c2be7fab5bac/'  // 农场
+$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDQ5OTIwMDAwMDAwMzQwMjg0MTM=/'  // 萌宠
 $.ddUrl = 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/互助码/'  // 东东
-$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/互助码/'  // 惊喜
+$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/互助码/'  // 京喜
 
 $.result = []
 
@@ -131,12 +131,12 @@ function createJx() {
       try {
          const obj = JSON.parse(data)
         if (obj.code == 200) {
-          $.result.push("东东工厂互助码添加成功✅")
+          $.result.push("京喜工厂互助码添加成功✅")
         }else
 		if(obj.code == 400) {
-          $.result.push("东东工厂互助码已存在")
+          $.result.push("京喜工厂互助码已存在")
         }else{
-          $.result.push("东东工厂互助码添加异常")
+          $.result.push("京喜工厂互助码添加异常")
         }
       } catch (e) {
         $.logErr(e, resp)
