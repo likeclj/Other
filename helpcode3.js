@@ -1,16 +1,16 @@
 /*GG
-11月26日新增东东工厂、惊喜工厂
+11月26日新增东东工厂、京喜工厂
 把你自己的对应活动的互助码复制，替换链接中（互助码三个文字）
 
 */
 
 
 const $ = new Env('互助码')
-$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/互助码/'  // 种豆得豆
-$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/互助码/'  // 农场
-$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/互助码/'  // 萌宠
+$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/gou7sxm3hztwoo45x2iwv7u5ihvf5lawjhhwi3y/'  // 种豆得豆
+$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/32074c270189439dad7d35251dd03c05/'  // 农场
+$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDAxNzYwMDAwMDAwMzcwNjU4Nzk=/'  // 萌宠
 $.ddUrl = 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/互助码/'  // 东东
-$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/互助码/'  // 惊喜
+$.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/Dmozoh8C9OjW8NRz99jXcg==/'  // 京喜
 
 $.result = []
 
@@ -123,7 +123,7 @@ function createDd() {
   })
 }
 
-// 惊喜工厂
+// 京喜工厂
 function createJx() {
   return new Promise((resolve) => {
     const url = { url: $.jxUrl }
@@ -131,12 +131,12 @@ function createJx() {
       try {
          const obj = JSON.parse(data)
         if (obj.code == 200) {
-          $.result.push("东东工厂互助码添加成功✅")
+          $.result.push("京喜工厂互助码添加成功✅")
         }else
 		if(obj.code == 400) {
-          $.result.push("东东工厂互助码已存在")
+          $.result.push("京喜工厂互助码已存在")
         }else{
-          $.result.push("东东工厂互助码添加异常")
+          $.result.push("京喜工厂互助码添加异常")
         }
       } catch (e) {
         $.logErr(e, resp)
