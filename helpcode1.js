@@ -9,7 +9,7 @@ const $ = new Env('互助码')
 $.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/e7lhibzb3zek262yj42pxn76swq44jrc7axf4ta/'  // 种豆得豆
 $.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/fd5f20c2e2844c5a8ef41799075b522e/'  // 农场
 $.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODcxOTI2NTAwMDAwMDAzMjg4OTYzNw==/'  // 萌宠
-$.ddUrl = 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/互助码/'  // 东东
+$.ddUrl = 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2T-iy5NkSOUx-6Xx4c/'  // 东东
 $.jxUrl = 'http://api.turinglabs.net/api/v1/jd/jxfactory/create/AkKRylFHNCSd8yDF2HsDHw==/'  // 京喜
 
 $.result = []
